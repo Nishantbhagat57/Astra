@@ -29,7 +29,7 @@ regex_secret = {
     'Braintree-access-token':r'(access_token\$production\$[0-9a-z]{16}\$[0-9a-f]{32})',
     'Zoho Webhook':r'(https://creator\.zoho\.com/api/[A-Za-z0-9/_.-]+\?authtoken=[A-Za-z0-9]+)',
     'Firebase-server-key':r'(AAAA[a-zA-Z0-9_-]{7}:[a-zA-Z0-9_-]{140})',
-    'Bugsnag-API-key':r'([A-Za-z0-9]{32}-[A-Za-z0-9]{32}-[A-Za-z0-9]{32}-[A-Za-z0-9]{32})'
+    'Bugsnag-API-key':r'([A-Za-z0-9]{32}-[A-Za-z0-9]{32}-[A-Za-z0-9]{32}-[A-Za-z0-9]{32})',
     'oauth-access-key':r'(ya29\.[0-9A-Za-z_-]+)',
     'github_access_token' : r'[a-zA-Z0-9_-]*:[a-zA-Z0-9_\-]+@github\.com*',
     'general token1':r'((?:K|k)ey(?:up|down|press))',
