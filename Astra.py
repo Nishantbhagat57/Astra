@@ -27,6 +27,8 @@ regex_secret = {
     'authorization_basic' : r'basic\s*[a-zA-Z0-9=:_\+\/-]+',
     'authorization_bearer' : r'bearer\s*[a-zA-Z0-9_\-\.=:_\+\/]+',
     'authorization_api' : r'api[key|\s*]+[a-zA-Z0-9_\-]+',
+    'Cloudinary'  : 'cloudinary://.*',
+	'Firebase URL': '.*firebaseio\.com',
     'mailgun_api_key' : r'key-[0-9a-zA-Z]{32}',
     'twilio_api_key' : r'SK[0-9a-fA-F]{32}',
     'twilio_account_sid' : r'AC[a-zA-Z0-9_\-]{32}',
