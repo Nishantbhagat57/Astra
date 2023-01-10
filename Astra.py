@@ -185,7 +185,7 @@ async def parser(session, url):
 
 async def start(urls:set, threads) -> None:
     connector = aiohttp.TCPConnector(limit_per_host=threads, ssl=False)
-    timeout = aiohttp.ClientTimeout(total=15)
+    timeout = aiohttp.ClientTimeout(total=20)
     async with aiohttp.ClientSession(connector=connector,timeout=timeout) as session:
         tasks = []
         for url in urls:
