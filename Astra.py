@@ -85,7 +85,7 @@ regex_secret = {
     	'GitLab_PAT': r"(_|-?)([t|T][o|O][k|K][e|E][n|N])(:|=| )(.{0,3})(\\S{20})(.?)(\\n|\\r|\\n\\r|$)",
 	'Generic API Key': r"[a|A][p|P][i|I][_]?[k|K][e|E][y|Y].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
 	'Generic Secret': r"[s|S][e|E][c|C][r|R][e|E][t|T].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
-	'Google Maps Key' = r'AIza[a-zA-Z0-9_-]{33}',
+	'Google Maps Key': r'AIza[a-zA-Z0-9_-]{33}',
 	'Google API Key': r"AIza[0-9A-Za-z\\-_]{35}",
 	'Google Cloud Platform API Key': r"AIza[0-9A-Za-z\\-_]{35}",
 	'Google Cloud Platform API Key 2': r"AIza[0-9A-Za-z\\-_]{33}",
