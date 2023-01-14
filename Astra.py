@@ -54,6 +54,8 @@ regex_secret = {
     'facebook_access_token' : r'EAACEdEose0cBA[0-9A-Za-z]+',
     'Authorization_basic' : r'basic [a-zA-Z0-9=:_-]{5,250}',
     'Authorization_basic' : r'Basic [a-zA-Z0-9=:_-]{5,250}',
+    'Authorization_basic' :r'(^(\"|')?Basic [A-Za-z0-9\\+=]{5,250}(\"|')?$)',
+    'Authorization_bearer' :r'(^(\"|')?Bearer [A-Za-z0-9\\+=]{5,250}(\"|')?$)',
     'Authorization_bearer' : r'bearer [a-zA-Z0-9_.=:_\+\/-]{5,250}',
     'Authorization_bearer' : r'Bearer [a-zA-Z0-9_.=:_\+\/-]{5,250}',
     'Authorization_api' : r'api[key|_key|\s+]+[a-zA-Z0-9_-]{5,250}',
